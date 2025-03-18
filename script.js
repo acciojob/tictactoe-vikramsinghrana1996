@@ -16,7 +16,7 @@ function startGame(player1, player2) {
     board.innerHTML = ""; // Clear previous board
     const message = document.querySelector('.message');
     let currentPlayer = player1;
-    let currentSymbol = "X";
+    let currentSymbol = "x";
     let gameOver = false;
     let boardState = ["", "", "", "", "", "", "", "", ""];
 
