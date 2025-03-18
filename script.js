@@ -38,7 +38,7 @@ function startGame(player1, player2) {
                 } else {
                     // Switch player
                     currentPlayer = (currentPlayer === player1) ? player2 : player1;
-                    currentSymbol = (currentSymbol === "X") ? "O" : "X";
+                    currentSymbol = (currentSymbol === "x") ? "o" : "x";
                     message.textContent = `${currentPlayer}, you're up!`;
                 }
             }
